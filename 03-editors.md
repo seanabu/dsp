@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I chose to use vim becuase it has a graphical editor and when talking with a few people that is the editor they use as well.  
 
 ---
 
@@ -61,6 +61,6 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+I am using vim because it is the editor I am also using for a terminal editor.  I learned that you can add some useful customizations to vim like search for just a string instead of the whole word using incsearch. Also I can have it ignore the capitalization of letters when searching for a phrase so that I don't have to worry if I misremember the capitalization of a word.  While all of these seem useful, I haven't added any of them yet becasue I am just working to learn the basic commands.  I'm playing the game http://vim-adventures.com/ to help me become more familiar with using vim. 
 
 ---
