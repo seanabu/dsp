@@ -44,8 +44,12 @@ exit - exit the shell
 
 What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations of those flags are meaningful?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+ls shows you the files in the the current directory
+ls -a will list all files including the hidden files
+ls -l will list the files along with the file details
+ls -lh will list the files with the details and the size in a more familiar format
 
+You can combine the flags in order to help you sort the list in a specific way, ie by size or date modified.
 ---
 
 
@@ -53,6 +57,6 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 What does `xargs` do? Give an example of how to use it.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+xargs can help you perform a function multiple times by having that function loop over a list.This is helpful so that you can quickly perform actions on a large scale. So lets say we had a bunch of files with data in them that we wanted to concatenate to create one file with all of the data.  xargs can loop over the files quickly and ad them all to one file.  
 
 ---
