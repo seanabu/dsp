@@ -18,7 +18,7 @@ These exercises are implemented with doctests, which are runnable tests inside d
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> Tuples are immutable while lists are mutuable.  Lists will work as keys in a dictionaries becasue you need to be able to manipulate a dictionary similiar to how you can manipulate a list. 
 
 ---
 
@@ -27,7 +27,8 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> These are two different data structures. Lists are dynamic arrays, while sets are hash tables. This makes sets  quicker for finding an element than lists.  If you are searching for an element in a list, you must iterate over the whole list.  With sets however, similiar values are placed into buckets, and when you search you can go straight to the appropriate bucket to look for the element.  Sets don't retain the order of insertion though. Also it seems like creating sets can be a little more time consuming, so it is only worth doing it if the you are dealing with very large data sets. 
+
 
 ---
 
@@ -36,8 +37,7 @@ REPLACE THIS TEXT WITH YOUR RESPONSE
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> lambda is a way to create a one-off function inline. Instead of naming and acutally creating a function to use, you can just run a function within a line of code. You can pair it with other functions like map() or filter() to use the results of the function. 
 ---
 
 
