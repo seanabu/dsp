@@ -37,7 +37,7 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-> lambda is a way to create a one-off function inline. Instead of naming and acutally creating a function to use, you can just run a function within a line of code. You can pair it with other functions like map() or filter() to use the results of the function. 
+> lambda is a way to create a one-off function inline. Instead of naming and acutally creating a function to use, you can just run a function within a line of code. 
 ---
 
 
