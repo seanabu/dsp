@@ -38,6 +38,8 @@ How are Python lists and sets similar and different? Give examples of using both
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
 > lambda is a way to create a one-off function inline. Instead of naming and acutally creating a function to use, you can just run a function within a line of code. 
+
+>sorted(list_of_tuples, key=lambda student: tuple[2])
 ---
 
 
@@ -45,7 +47,10 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-REPLACE THIS TEXT WITH YOUR RESPONSE
+> list comprehensions are an easy and quicker way to create lists. 
+> list comprehension for even numbers: [x for x in range(100) if x %2 == 0]
+> 'map' for even numbers: result = map(lambda x: x % 2 == 0, range(100)
+> 'filter' for even numbers: result = filter(lambda x: x % 2 == 0, range(100))
 
 ---
 
